@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Masar",
+    "name": "Msar",
     "slug": "masar-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,6 +21,13 @@
     },
     "ios": {
       "bundleIdentifier": "com.masar.app"
+    },
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android"],
+    "extra": {
+      "eas": {
+        "projectId": "d9789b62-e8d7-490e-b0c0-91aec6c83a23"
+      }
     }
   }
 }
