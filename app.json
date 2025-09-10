@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Msar",
+    "name": "Masar",
     "slug": "masar-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./masar_logo.png",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/icon.png",
+      "image": "./masar_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,20 +15,20 @@
       "package": "com.masar.app",
       "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./masar_logo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "ios": {
-      "bundleIdentifier": "com.masar.app"
+      "bundleIdentifier": "com.masar.app",
+      "buildNumber": "1.0.0"
     },
+    "platforms": ["ios", "android"],
+    "sdkVersion": "51.0.0",
     "extra": {
       "eas": {
         "projectId": "d9789b62-e8d7-490e-b0c0-91aec6c83a23"
       }
-    },
-    "cli": {
-      "appVersionSource": "remote"
     }
   }
 }
